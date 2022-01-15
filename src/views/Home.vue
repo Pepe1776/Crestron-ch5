@@ -1,7 +1,8 @@
 <template>
- <div class="main">
-   <h1 class="text-8xl">Hello</h1>
- </div>
+  <div class="main">
+    <h1 class="text-8xl color1">Hello</h1>
+    <font-awesome-icon icon="user-secret" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -13,5 +14,5 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue { }
 </script>
