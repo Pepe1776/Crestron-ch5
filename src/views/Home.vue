@@ -1,7 +1,11 @@
 <template>
   <div class="main">
     <h1 class="text-8xl color1">Hello</h1>
-    <font-awesome-icon icon="user-secret" />
+    <font-awesome-icon icon="couch" />
+    <font-awesome-icon icon="sink" />
+    <font-awesome-icon icon="house-damage" />
+    <font-awesome-icon icon="bed" />
+    <font-awesome-icon icon="dice" />
   </div>
 </template>
 
