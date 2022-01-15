@@ -1,7 +1,9 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import "./boot/crestron.js";
-import "./styles/app.css";
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import './assets/tailwind.css';
+import './boot/crestron';
+import './styles/app.css';
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(store).use(router).mount('#app');
